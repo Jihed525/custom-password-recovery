@@ -15,9 +15,9 @@ public class SessionSetTimeoutListener extends Listener<PortalContainer, HttpSes
     private static Log log = ExoLogger.getLogger(SessionSetTimeoutListener.class);
 
     /**
-     * Default value 30 minutes
+     * Default value 10 minutes
      */
-    private static int sessionTimeoutSeconds = 60 / 10;
+    private static int sessionTimeoutSeconds = 10 * 60 ;
 
     public SessionSetTimeoutListener(InitParams params) {
         if (params.containsKey("web.session.timeout.minutes") && ! params.getValueParam("web.session.timeout.minutes").getValue().isEmpty()) {

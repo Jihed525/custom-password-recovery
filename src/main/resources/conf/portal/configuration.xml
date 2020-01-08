@@ -34,7 +34,7 @@
         <init-params>
             <value-param>
                 <name>web.session.timeout.minutes</name>
-                <value>${web.session.timeout.minutes:1}</value>
+                <value>${web.session.timeout.minutes:10}</value>
             </value-param>
         </init-params>
     </component-plugin>
