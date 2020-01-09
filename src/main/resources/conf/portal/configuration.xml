@@ -29,7 +29,7 @@
     <component-plugin>
         <name>org.exoplatform.web.GenericHttpListener.sessionCreated</name>
         <set-method>addListener</set-method>
-        <type>org.exoplatform.wiki.service.impl.SessionSetTimeoutListener</type>
+        <type>org.exoplatform.custom.session.SessionSetTimeoutListener</type>
         <description>this listener sets timeout of the session</description>
         <init-params>
             <value-param>
