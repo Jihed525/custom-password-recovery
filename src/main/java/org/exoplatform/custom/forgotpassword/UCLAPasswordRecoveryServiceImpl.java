@@ -48,9 +48,6 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * @author <a href="mailto:tuyennt@exoplatform.com">Tuyen Nguyen The</a>.
- */
 public class UCLAPasswordRecoveryServiceImpl extends PasswordRecoveryServiceImpl {
 
     protected static Logger log = LoggerFactory.getLogger(UCLAPasswordRecoveryServiceImpl.class);
