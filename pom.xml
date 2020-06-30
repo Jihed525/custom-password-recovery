@@ -22,7 +22,7 @@
     <packaging>jar</packaging>
     <name>Set Session Timeout Service</name>
     <properties>
-        <plf-version>5.1.3-CP01</plf-version>
+        <plf-version>5.3.3</plf-version>
     </properties>
     <dependencies>
         <dependency>
