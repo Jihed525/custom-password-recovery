@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="struts-jpetstore:war">
+    <output-path>$PROJECT_DIR$/../gatein-portal/examples/portlets/struts-jpetstore/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>struts-jpetstore</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gatein-struts-jpetstore.war">
+      <element id="artifact" artifact-name="struts-jpetstore:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.exoplatform.core:exo.core.component.database:5.3.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/exoplatform/core/exo.core.component.database/5.3.3/exo.core.component.database-5.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/exoplatform/core/exo.core.component.database/5.3.3/exo.core.component.database-5.3.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/exoplatform/core/exo.core.component.database/5.3.3/exo.core.component.database-5.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

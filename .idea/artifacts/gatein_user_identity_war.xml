@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gatein-user-identity:war">
+    <output-path>$PROJECT_DIR$/../gatein-portal/examples/portlets/useridentity/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gatein-user-identity</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gatein-user-identity-5.3.3.war">
+      <element id="artifact" artifact-name="gatein-user-identity:war exploded" />
+    </root>
+  </artifact>
+</component>

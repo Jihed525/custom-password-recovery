@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gatein-sample-skin:war">
+    <output-path>$PROJECT_DIR$/../gatein-portal/examples/skins/simpleskin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gatein-sample-skin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gatein-sample-skin.war">
+      <element id="artifact" artifact-name="gatein-sample-skin:war exploded" />
+    </root>
+  </artifact>
+</component>

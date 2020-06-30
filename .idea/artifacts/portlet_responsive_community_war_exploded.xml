@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="portlet.responsive.community:war exploded">
+    <output-path>$PROJECT_DIR$/../gatein-portal/mobile-integration/portlets/community/target/responsive-community-portlet</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>portlet.responsive.community</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="portlet.responsive.community" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: rome:rome:1.0" />
+          <element id="library" level="project" name="Maven: jdom:jdom:1.0" />
+          <element id="library" level="project" name="Maven: org.gatein.common:common-logging:2.2.2.Final" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../gatein-portal/mobile-integration/portlets/community/target/responsive-community-portlet/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="portlet.responsive.community/web/Web" />
+    </root>
+  </artifact>
+</component>

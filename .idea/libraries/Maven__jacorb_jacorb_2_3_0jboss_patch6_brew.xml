@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: jacorb:jacorb:2.3.0jboss.patch6-brew">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jacorb/jacorb/2.3.0jboss.patch6-brew/jacorb-2.3.0jboss.patch6-brew.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/jacorb/jacorb/2.3.0jboss.patch6-brew/jacorb-2.3.0jboss.patch6-brew-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/jacorb/jacorb/2.3.0jboss.patch6-brew/jacorb-2.3.0jboss.patch6-brew-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

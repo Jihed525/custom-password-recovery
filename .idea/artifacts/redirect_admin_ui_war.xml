@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="redirect-admin-ui:war">
+    <output-path>$PROJECT_DIR$/../gatein-portal/portlet/admin/redirect/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>redirect-admin-ui</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="redirect-admin.war">
+      <element id="artifact" artifact-name="redirect-admin-ui:war exploded" />
+    </root>
+  </artifact>
+</component>
