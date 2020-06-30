@@ -33,8 +33,7 @@ import org.exoplatform.web.WebAppController;
 import org.exoplatform.web.controller.QualifiedName;
 import org.exoplatform.web.controller.router.Router;
 import org.exoplatform.web.login.recovery.PasswordRecoveryHandler;
-import org.exoplatform.web.login.recovery.PasswordRecoveryService;
-import org.exoplatform.web.security.Token;
+import org.exoplatform.web.login.recovery.PasswordRecoveryServiceImpl;
 import org.exoplatform.web.security.security.RemindPasswordTokenService;
 import org.gatein.common.logging.Logger;
 import org.gatein.common.logging.LoggerFactory;
@@ -52,7 +51,7 @@ import java.util.regex.Pattern;
 /**
  * @author <a href="mailto:tuyennt@exoplatform.com">Tuyen Nguyen The</a>.
  */
-public class UCLAPasswordRecoveryServiceImpl implements PasswordRecoveryService {
+public class UCLAPasswordRecoveryServiceImpl extends PasswordRecoveryServiceImpl {
 
     protected static Logger log = LoggerFactory.getLogger(UCLAPasswordRecoveryServiceImpl.class);
 
@@ -63,40 +62,12 @@ public class UCLAPasswordRecoveryServiceImpl implements PasswordRecoveryService 
     private final WebAppController webController;
 
     public UCLAPasswordRecoveryServiceImpl(OrganizationService orgService, MailService mailService, ResourceBundleService bundleService, RemindPasswordTokenService remindPasswordTokenService, WebAppController controller) {
+        super(orgService, mailService, bundleService, remindPasswordTokenService, controller);
         this.orgService = orgService;
         this.mailService = mailService;
         this.bundleService = bundleService;
         this.remindPasswordTokenService = remindPasswordTokenService;
         this.webController = controller;
-    }
-
-    @Override
-    public Credentials verifyToken(String tokenId) {
-        Token token = remindPasswordTokenService.getToken(tokenId);
-        if (token == null || token.isExpired()) {
-            return null;
-        }
-        return token.getPayload();
-    }
-
-    @Override
-    public boolean changePass(final String tokenId, final String username, final String password) {
-        try {
-            User user = orgService.getUserHandler().findUserByName(username);
-            user.setPassword(password);
-            orgService.getUserHandler().saveUser(user, true);
-
-            try {
-                remindPasswordTokenService.deleteToken(tokenId);
-            } catch (Exception ex) {
-                log.warn("Can not delete token: " + tokenId, ex);
-            }
-
-            return true;
-        } catch (Exception ex) {
-            log.error("Can not change pass for user: " + username, ex);
-            return false;
-        }
     }
 
     @Override
@@ -215,30 +186,4 @@ public class UCLAPasswordRecoveryServiceImpl implements PasswordRecoveryService 
         matcher.appendTail(sb);
     }
 
-    // These method will be overwrite on Platform project
-    protected String getEmailSubject(User user, ResourceBundle bundle) {
-        return bundle.getString("gatein.forgotPassword.email.subject");
-    }
-
-    protected String getSenderName() {
-        return "";
-    }
-
-    protected String getSenderEmail() {
-        return System.getProperty("gatein.email.smtp.from", "noreply@gatein.org");
-    }
-
-    @Override
-    public String getPasswordRecoverURL(String tokenId, String lang) {
-        Router router = webController.getRouter();
-        Map<QualifiedName, String> params = new HashMap<QualifiedName, String>();
-        params.put(WebAppController.HANDLER_PARAM, PasswordRecoveryHandler.NAME);
-        if (tokenId != null) {
-          params.put(PasswordRecoveryHandler.TOKEN, tokenId);
-        }
-        if (lang != null) {
-          params.put(PasswordRecoveryHandler.LANG, lang);
-        }
-        return router.render(params);
-    }
 }

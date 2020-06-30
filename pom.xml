@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>test</artifactId>
+    <artifactId>sample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -20,7 +20,7 @@
         </plugins>
     </build>
     <packaging>jar</packaging>
-    <name>Set Session Timeout Service</name>
+    <name>Sample : Redefine PasswordRecoveryServiceImpl</name>
     <properties>
         <plf-version>5.3.3</plf-version>
     </properties>
