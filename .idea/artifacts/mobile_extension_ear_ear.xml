@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="mobile-extension-ear:ear">
+    <output-path>$PROJECT_DIR$/../gatein-portal/mobile-integration/extension-ear/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mobile-extension-ear</module>
+        <packaging>ear</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gatein-mobile-extension.ear">
+      <element id="artifact" artifact-name="mobile-extension-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>

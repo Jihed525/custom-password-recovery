@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mobile-extension-configuration:war">
+    <output-path>$PROJECT_DIR$/../gatein-portal/mobile-integration/extension-configuration/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mobile-extension-configuration</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gatein-mobile-configuration.war">
+      <element id="artifact" artifact-name="mobile-extension-configuration:war exploded" />
+    </root>
+  </artifact>
+</component>

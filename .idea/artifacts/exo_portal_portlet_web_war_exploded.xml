@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exo.portal.portlet.web:war exploded">
+    <output-path>$PROJECT_DIR$/../gatein-portal/portlet/web/target/web</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>exo.portal.portlet.web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="exo.portal.portlet.web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.chromattic:chromattic.api:1.3.0" />
+          <element id="library" level="project" name="Maven: org.chromattic:chromattic.spi:1.3.0" />
+          <element id="library" level="project" name="Maven: javax.jcr:jcr:1.0" />
+          <element id="library" level="project" name="Maven: org.chromattic:chromattic.apt:1.3.0" />
+          <element id="library" level="project" name="Maven: org.chromattic:chromattic.metamodel:1.3.0" />
+          <element id="library" level="project" name="Maven: org.reflext:reflext.jlr:1.1.0" />
+          <element id="library" level="project" name="Maven: org.reflext:reflext.api:1.1.0" />
+          <element id="library" level="project" name="Maven: org.reflext:reflext.core:1.1.0" />
+          <element id="library" level="project" name="Maven: org.reflext:reflext.spi:1.1.0" />
+          <element id="library" level="project" name="Maven: org.reflext:reflext.apt:1.1.0" />
+          <element id="library" level="project" name="Maven: org.chromattic:chromattic.common:1.3.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../gatein-portal/portlet/web/target/web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="exo.portal.portlet.web/web/Web" />
+    </root>
+  </artifact>
+</component>

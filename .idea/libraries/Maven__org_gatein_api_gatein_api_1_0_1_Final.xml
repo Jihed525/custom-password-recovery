@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.gatein.api:gatein-api:1.0.1.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gatein/api/gatein-api/1.0.1.Final/gatein-api-1.0.1.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gatein/api/gatein-api/1.0.1.Final/gatein-api-1.0.1.Final-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gatein/api/gatein-api/1.0.1.Final/gatein-api-1.0.1.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

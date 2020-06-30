@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gatein-jquery:war">
+    <output-path>$PROJECT_DIR$/../gatein-portal/examples/portlets/jquery/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gatein-jquery</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gatein-jquery-5.3.3.war">
+      <element id="artifact" artifact-name="gatein-jquery:war exploded" />
+    </root>
+  </artifact>
+</component>

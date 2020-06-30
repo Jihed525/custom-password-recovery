@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="consumer:war exploded">
+    <output-path>$PROJECT_DIR$/../gatein-portal/examples/portlets/ipc/consumer/target/consumer-5.3.3</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>consumer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="consumer" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../gatein-portal/examples/portlets/ipc/consumer/target/consumer-5.3.3/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="consumer/web/Web" />
+    </root>
+  </artifact>
+</component>

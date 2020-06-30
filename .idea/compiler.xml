@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="exo.portal.component.web.api" />
+        <module name="mobile-extension-configuration" />
+        <module name="gatein-sample-extension" />
+        <module name="exo.portal.portlet.exoadmin" />
+        <module name="gatein-jquery" />
+        <module name="gatein-user-identity" />
+        <module name="portal-testsuite-selenium-ui-tests" />
+        <module name="exo.portal.web.portal" />
+        <module name="gatein-simplest-helloworld" />
+        <module name="exo.portal.component.web.server" />
+        <module name="responsive-skin" />
+        <module name="portlet.responsive.header" />
+        <module name="exo.portal.component.web.oauth-web" />
+        <module name="gatein-cdi-injection" />
+        <module name="exo.webui.based.samples" />
+        <module name="exo.portal.component.web.oauth-common" />
+        <module name="exo.portal.component.resources" />
+        <module name="exo.portal.web.eXoResources" />
+        <module name="exo.portal.sample.portal.jar" />
+        <module name="exo.portal.component.web.controller" />
+        <module name="exo.portal.portlet.web" />
+        <module name="portlet.responsive.footer" />
+        <module name="exo.portal.webui.core" />
+        <module name="exo.portal.webui.eXo" />
+        <module name="producer" />
+        <module name="gatein-jsp-hellouser" />
+        <module name="gatein-api" />
+        <module name="todomvc" />
+        <module name="mobile-extension-login" />
+        <module name="exo.portal.component.test.jcr" />
+        <module name="exo.portal.web.rest" />
+        <module name="exo.portal.sample.portal.rest-war" />
+        <module name="struts-jpetstore" />
+        <module name="exo.portal.sample.extension.jar" />
+        <module name="exo.portal.component.test.web" />
+        <module name="exo.portal.component.pc" />
+        <module name="exo.portal.component.file-storage" />
+        <module name="exo.portal.component.api" />
+        <module name="starter-gatein" />
+        <module name="exo.portal.component.application-registry" />
+        <module name="exo.portal.component.portal" />
+        <module name="redirect-admin-ui" />
+        <module name="custom-extension" />
+        <module name="gatein-cdi-contexts" />
+        <module name="portlet.responsive.banner" />
+        <module name="gatein-amd-js" />
+        <module name="gatein-sample-portal" />
+        <module name="gatein-sample-skin" />
+        <module name="redirect (1) (org.exoplatform.gatein.portal.portlet)" />
+        <module name="exo.portal.component.identity" />
+        <module name="exo.portal.component.management" />
+        <module name="gatein-portal-build-config" />
+        <module name="exo.portal.component.web.sso.agents-configs" />
+        <module name="exo.portal.sample.extension.config" />
+        <module name="exo.portal.component.test.core" />
+        <module name="portlet.responsive.features" />
+        <module name="exo.portal.webui.portal" />
+        <module name="redirect (2) (org.gatein.web)" />
+        <module name="exo.portal.sample.portal.config" />
+        <module name="exo.portal.sample.portal.war" />
+        <module name="portlet.responsive.community" />
+        <module name="exo.portal.webui.portlet" />
+        <module name="exo.portal.sample.extension.war" />
+        <module name="exo.portal.component.web.sso.saml" />
+        <module name="exo.portal.selenium.snifftests" />
+        <module name="exo.portal.component.scripting" />
+        <module name="portlet.responsive.navigation" />
+        <module name="exo.portal.starter.war" />
+        <module name="exo.portal.component.web.resources" />
+        <module name="exo.portal.component.web.security" />
+        <module name="portal-testsuite-htmlunit-tests" />
+        <module name="mobile-extension-ear" />
+        <module name="resource-serving" />
+        <module name="exo.portal.component.web.sso.integration-configs" />
+        <module name="consumer" />
+        <module name="test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="consumer" target="1.5" />
+      <module name="custom-extension" target="1.5" />
+      <module name="exo.portal.component" target="1.8" />
+      <module name="exo.portal.component.api" target="1.8" />
+      <module name="exo.portal.component.application-registry" target="1.8" />
+      <module name="exo.portal.component.common" target="1.8" />
+      <module name="exo.portal.component.file-storage" target="1.8" />
+      <module name="exo.portal.component.identity" target="1.8" />
+      <module name="exo.portal.component.management" target="1.8" />
+      <module name="exo.portal.component.pc" target="1.8" />
+      <module name="exo.portal.component.portal" target="1.8" />
+      <module name="exo.portal.component.resources" target="1.8" />
+      <module name="exo.portal.component.scripting" target="1.8" />
+      <module name="exo.portal.component.test" target="1.8" />
+      <module name="exo.portal.component.test.core" target="1.8" />
+      <module name="exo.portal.component.test.jcr" target="1.8" />
+      <module name="exo.portal.component.test.web" target="1.8" />
+      <module name="exo.portal.component.web" target="1.8" />
+      <module name="exo.portal.component.web.api" target="1.8" />
+      <module name="exo.portal.component.web.controller" target="1.8" />
+      <module name="exo.portal.component.web.oauth-common" target="1.8" />
+      <module name="exo.portal.component.web.oauth-web" target="1.8" />
+      <module name="exo.portal.component.web.resources" target="1.8" />
+      <module name="exo.portal.component.web.security" target="1.8" />
+      <module name="exo.portal.component.web.server" target="1.8" />
+      <module name="exo.portal.component.web.sso" target="1.8" />
+      <module name="exo.portal.component.web.sso.agents-configs" target="1.8" />
+      <module name="exo.portal.component.web.sso.integration-configs" target="1.8" />
+      <module name="exo.portal.component.web.sso.saml" target="1.8" />
+      <module name="exo.portal.parent" target="1.8" />
+      <module name="exo.portal.portlet" target="1.8" />
+      <module name="exo.portal.portlet.exoadmin" target="1.8" />
+      <module name="exo.portal.portlet.web" target="1.8" />
+      <module name="exo.portal.sample" target="1.8" />
+      <module name="exo.portal.sample.extension.config" target="1.8" />
+      <module name="exo.portal.sample.extension.jar" target="1.8" />
+      <module name="exo.portal.sample.extension.root" target="1.8" />
+      <module name="exo.portal.sample.extension.war" target="1.8" />
+      <module name="exo.portal.sample.portal.config" target="1.8" />
+      <module name="exo.portal.sample.portal.jar" target="1.8" />
+      <module name="exo.portal.sample.portal.rest-war" target="1.8" />
+      <module name="exo.portal.sample.portal.root" target="1.8" />
+      <module name="exo.portal.sample.portal.war" target="1.8" />
+      <module name="exo.portal.selenium.snifftests" target="1.8" />
+      <module name="exo.portal.starter.root" target="1.8" />
+      <module name="exo.portal.starter.war" target="1.8" />
+      <module name="exo.portal.testsuite" target="1.8" />
+      <module name="exo.portal.web" target="1.8" />
+      <module name="exo.portal.web.eXoResources" target="1.8" />
+      <module name="exo.portal.web.portal" target="1.8" />
+      <module name="exo.portal.web.rest" target="1.8" />
+      <module name="exo.portal.webui" target="1.8" />
+      <module name="exo.portal.webui.core" target="1.8" />
+      <module name="exo.portal.webui.eXo" target="1.8" />
+      <module name="exo.portal.webui.framework" target="1.8" />
+      <module name="exo.portal.webui.portal" target="1.8" />
+      <module name="exo.portal.webui.portlet" target="1.8" />
+      <module name="exo.webui.based.samples" target="1.8" />
+      <module name="gatein-amd-js" target="1.5" />
+      <module name="gatein-api" target="1.5" />
+      <module name="gatein-cdi-contexts" target="1.8" />
+      <module name="gatein-cdi-injection" target="1.8" />
+      <module name="gatein-cdi-parent" target="1.8" />
+      <module name="gatein-jquery" target="1.6" />
+      <module name="gatein-jsp-hellouser" target="1.5" />
+      <module name="gatein-portal-build-config" target="1.8" />
+      <module name="gatein-sample-extension" target="1.8" />
+      <module name="gatein-sample-portal" target="1.8" />
+      <module name="gatein-sample-skin" target="1.8" />
+      <module name="gatein-simplest-helloworld" target="1.5" />
+      <module name="gatein-user-identity" target="1.5" />
+      <module name="ipc" target="1.8" />
+      <module name="mobile-extension-configuration" target="1.8" />
+      <module name="mobile-extension-ear" target="1.8" />
+      <module name="mobile-extension-login" target="1.8" />
+      <module name="mobile-integration" target="1.8" />
+      <module name="parent (1) (org.exoplatform.gatein.portal.examples.portlets)" target="1.8" />
+      <module name="parent (2) (org.exoplatform.gatein.portal.examples.skins)" target="1.8" />
+      <module name="portal-testsuite-htmlunit-tests" target="1.5" />
+      <module name="portal-testsuite-selenium-ui-tests" target="1.5" />
+      <module name="portlet.responsive.banner" target="1.6" />
+      <module name="portlet.responsive.community" target="1.6" />
+      <module name="portlet.responsive.features" target="1.6" />
+      <module name="portlet.responsive.footer" target="1.6" />
+      <module name="portlet.responsive.header" target="1.6" />
+      <module name="portlet.responsive.navigation" target="1.6" />
+      <module name="producer" target="1.5" />
+      <module name="redirect (1) (org.exoplatform.gatein.portal.portlet)" target="1.6" />
+      <module name="redirect (2) (org.gatein.web)" target="1.8" />
+      <module name="redirect-admin-ui" target="1.8" />
+      <module name="resource-serving" target="1.5" />
+      <module name="responsive-portlets" target="1.8" />
+      <module name="responsive-skin" target="1.8" />
+      <module name="starter-gatein" target="1.8" />
+      <module name="struts-jpetstore" target="1.5" />
+      <module name="test" target="6" />
+      <module name="todomvc" target="1.5" />
+      <module name="wiki" target="1.8" />
+      <module name="wiki-injector" target="1.8" />
+      <module name="wiki-jpa" target="1.8" />
+      <module name="wiki-jpa-migration" target="1.8" />
+      <module name="wiki-macros" target="1.8" />
+      <module name="wiki-macros-iframe" target="1.8" />
+      <module name="wiki-packaging" target="1.8" />
+      <module name="wiki-renderer" target="1.8" />
+      <module name="wiki-service" target="1.8" />
+      <module name="wiki-social-integration" target="1.8" />
+      <module name="wiki-upgrade-plugins" target="1.8" />
+      <module name="wiki-webapp" target="1.8" />
+      <module name="wiki-webui" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.api" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.application-registry" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.common" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.file-storage" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.identity" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.management" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.pc" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.portal" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.resources" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.scripting" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.test.core" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.test.jcr" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.test.web" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.api" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.controller" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.oauth-common" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.oauth-web" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.resources" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.security" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.server" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.sso.agents-configs" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.sso.integration-configs" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.component.web.sso.saml" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.portlet.exoadmin" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.portlet.web" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.sample.extension.config" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.sample.extension.jar" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.sample.extension.war" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.sample.portal.config" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.sample.portal.jar" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.sample.portal.rest-war" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.sample.portal.war" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.selenium.snifftests" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.starter.war" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.web.eXoResources" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.web.portal" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.web.rest" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.webui.core" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.webui.eXo" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.webui.framework" options="-source 1.8 -target 1.8 -proc:none" />
+      <module name="exo.portal.webui.portal" options="-source 1.8 -target 1.8" />
+      <module name="exo.portal.webui.portlet" options="-source 1.8 -target 1.8" />
+      <module name="exo.webui.based.samples" options="-source 1.8 -target 1.8" />
+      <module name="gatein-amd-js" options="-source 1.8 -target 1.8" />
+      <module name="gatein-api" options="-source 1.8 -target 1.8" />
+      <module name="gatein-cdi-contexts" options="-source 1.8 -target 1.8" />
+      <module name="gatein-cdi-injection" options="-source 1.8 -target 1.8" />
+      <module name="gatein-jquery" options="-source 1.8 -target 1.8" />
+      <module name="gatein-jsp-hellouser" options="-source 1.8 -target 1.8" />
+      <module name="gatein-portal-build-config" options="-source 1.8 -target 1.8" />
+      <module name="gatein-sample-skin" options="-source 1.8 -target 1.8" />
+      <module name="gatein-simplest-helloworld" options="-source 1.8 -target 1.8" />
+      <module name="gatein-user-identity" options="-source 1.8 -target 1.8" />
+      <module name="mobile-extension-configuration" options="-source 1.8 -target 1.8" />
+      <module name="mobile-extension-login" options="-source 1.8 -target 1.8" />
+      <module name="portal-testsuite-htmlunit-tests" options="-source 1.8 -target 1.8" />
+      <module name="portal-testsuite-selenium-ui-tests" options="-source 1.8 -target 1.8" />
+      <module name="portlet.responsive.banner" options="-source 1.8 -target 1.8" />
+      <module name="portlet.responsive.community" options="-source 1.8 -target 1.8" />
+      <module name="portlet.responsive.features" options="-source 1.8 -target 1.8" />
+      <module name="portlet.responsive.footer" options="-source 1.8 -target 1.8" />
+      <module name="portlet.responsive.header" options="-source 1.8 -target 1.8" />
+      <module name="portlet.responsive.navigation" options="-source 1.8 -target 1.8" />
+      <module name="producer" options="-source 1.8 -target 1.8" />
+      <module name="redirect (1) (org.exoplatform.gatein.portal.portlet)" options="-source 1.8 -target 1.8" />
+      <module name="redirect (2) (org.gatein.web)" options="-source 1.8 -target 1.8" />
+      <module name="redirect-admin-ui" options="-source 1.8 -target 1.8" />
+      <module name="resource-serving" options="-source 1.8 -target 1.8" />
+      <module name="responsive-skin" options="-source 1.8 -target 1.8" />
+      <module name="struts-jpetstore" options="-source 1.8 -target 1.8" />
+      <module name="todomvc" options="-source 1.8 -target 1.8" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="exo.portal.web.eXoResources:war">
+    <output-path>$PROJECT_DIR$/../gatein-portal/web/eXoResources/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>exo.portal.web.eXoResources</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="eXoResources.war">
+      <element id="artifact" artifact-name="exo.portal.web.eXoResources:war exploded" />
+    </root>
+  </artifact>
+</component>
