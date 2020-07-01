@@ -50,7 +50,7 @@ import java.util.regex.Pattern;
 
 public class CustomPasswordRecoveryServiceImpl extends PasswordRecoveryServiceImpl {
 
-    protected static Logger log = LoggerFactory.getLogger(UCLAPasswordRecoveryServiceImpl.class);
+    protected static Logger log = LoggerFactory.getLogger(CustomPasswordRecoveryServiceImpl.class);
 
     private final OrganizationService orgService;
     private final MailService mailService;
