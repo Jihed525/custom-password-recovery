@@ -48,7 +48,7 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class UCLAPasswordRecoveryServiceImpl extends PasswordRecoveryServiceImpl {
+public class CustomPasswordRecoveryServiceImpl extends PasswordRecoveryServiceImpl {
 
     protected static Logger log = LoggerFactory.getLogger(UCLAPasswordRecoveryServiceImpl.class);
 
@@ -58,7 +58,7 @@ public class UCLAPasswordRecoveryServiceImpl extends PasswordRecoveryServiceImpl
     private final RemindPasswordTokenService remindPasswordTokenService;
     private final WebAppController webController;
 
-    public UCLAPasswordRecoveryServiceImpl(OrganizationService orgService, MailService mailService, ResourceBundleService bundleService, RemindPasswordTokenService remindPasswordTokenService, WebAppController controller) {
+    public CustomPasswordRecoveryServiceImpl(OrganizationService orgService, MailService mailService, ResourceBundleService bundleService, RemindPasswordTokenService remindPasswordTokenService, WebAppController controller) {
         super(orgService, mailService, bundleService, remindPasswordTokenService, controller);
         this.orgService = orgService;
         this.mailService = mailService;
