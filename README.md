@@ -18,3 +18,7 @@ This module enables :
 
 -Put the library custom-password-recovery.jar in the lib directory of eXo platform
 
+# Prerequisites
+
+Maven 3.3.9
+JDK 8
