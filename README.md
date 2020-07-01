@@ -10,7 +10,7 @@ This module enables :
 
 - The Password Recovery Service redefinition could be found in src/main/java/org/exoplatform/custom/forgotpassword/CustomPasswordRecoveryServiceImpl.java
 
-#Building the project
+# Building the project
 
 -Command to Run: mvn clean install
 
