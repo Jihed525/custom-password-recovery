@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
-    <artifactId>sample</artifactId>
+    <groupId>org.exoplatform.services</groupId>
+    <artifactId>custom-password-recovery</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -45,21 +45,5 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
         </dependency>
-        <dependency>
-            <groupId>exo</groupId>
-            <artifactId>exoplatform.container</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>exo</groupId>
-            <artifactId>exoplatform.services.common.api</artifactId>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>exo</groupId>
-            <artifactId>exoplatform.commons</artifactId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
-
 </project>
