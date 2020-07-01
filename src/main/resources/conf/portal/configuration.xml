@@ -24,7 +24,7 @@
 
   <component>
     <key>org.exoplatform.web.login.recovery.PasswordRecoveryService</key>
-    <type>org.exoplatform.custom.forgotpassword.UCLAPasswordRecoveryServiceImpl</type>
+    <type>org.exoplatform.custom.forgotpassword.CustomPasswordRecoveryServiceImpl</type>
   </component>
 
 </configuration>
