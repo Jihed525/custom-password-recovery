@@ -135,7 +135,7 @@ public class CustomPasswordRecoveryServiceImpl extends PasswordRecoveryServiceIm
 
     private String buildEmailBody(User user, ResourceBundle bundle, String link) {
         String content;
-        InputStream input = this.getClass().getClassLoader().getResourceAsStream("conf/forgot_password_email_template.html");
+        InputStream input = this.getClass().getClassLoader().getResourceAsStream("conf/forgot_password.html");
         if (input == null) {
             content = "";
         } else {
