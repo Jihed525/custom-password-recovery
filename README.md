@@ -6,7 +6,7 @@ This module enables :
 
 # Customization
 
-- The TO-BE customized e-mail template could be found in src/main/resources/conf/forgot_password_email_template.html
+- The TO-BE customized e-mail template could be found in src/main/resources/conf/forgot_password.html
 
 - The Password Recovery Service redefinition could be found in src/main/java/org/exoplatform/custom/forgotpassword/CustomPasswordRecoveryServiceImpl.java
 
